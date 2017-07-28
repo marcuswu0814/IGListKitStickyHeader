@@ -13,9 +13,17 @@
 		09C3D5241F2B374800A54C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09C3D5231F2B374800A54C88 /* Assets.xcassets */; };
 		09C3D5271F2B374800A54C88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09C3D5251F2B374800A54C88 /* LaunchScreen.storyboard */; };
 		09C3D52A1F2B374800A54C88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C3D5291F2B374800A54C88 /* main.m */; };
+		09C3D5321F2B387500A54C88 /* SectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C3D5311F2B387500A54C88 /* SectionController.m */; };
+		09C3D5351F2B38D500A54C88 /* ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C3D5341F2B38D500A54C88 /* ViewModel.m */; };
+		09C3D5391F2B390F00A54C88 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C3D5371F2B390F00A54C88 /* MyCollectionViewCell.m */; };
+		09C3D53A1F2B390F00A54C88 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09C3D5381F2B390F00A54C88 /* MyCollectionViewCell.xib */; };
+		09C3D53E1F2B39EA00A54C88 /* StickyHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C3D53C1F2B39EA00A54C88 /* StickyHeaderView.m */; };
+		09C3D53F1F2B39EA00A54C88 /* StickyHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09C3D53D1F2B39EA00A54C88 /* StickyHeaderView.xib */; };
+		5B54F5A94E07FC6E79C4293F /* Pods_IGListKitStickyHeader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F3AD3EA77EFB8BF60DE0DC /* Pods_IGListKitStickyHeader.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08F6140B88FDA78A408C6585 /* Pods-IGListKitStickyHeader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitStickyHeader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitStickyHeader/Pods-IGListKitStickyHeader.debug.xcconfig"; sourceTree = "<group>"; };
 		09C3D5171F2B374700A54C88 /* IGListKitStickyHeader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGListKitStickyHeader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09C3D51A1F2B374700A54C88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		09C3D51B1F2B374700A54C88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +34,18 @@
 		09C3D5261F2B374800A54C88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09C3D5281F2B374800A54C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09C3D5291F2B374800A54C88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09C3D5301F2B387500A54C88 /* SectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SectionController.h; sourceTree = "<group>"; };
+		09C3D5311F2B387500A54C88 /* SectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SectionController.m; sourceTree = "<group>"; };
+		09C3D5331F2B38D500A54C88 /* ViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewModel.h; sourceTree = "<group>"; };
+		09C3D5341F2B38D500A54C88 /* ViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewModel.m; sourceTree = "<group>"; };
+		09C3D5361F2B390F00A54C88 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		09C3D5371F2B390F00A54C88 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+		09C3D5381F2B390F00A54C88 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
+		09C3D53B1F2B39EA00A54C88 /* StickyHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StickyHeaderView.h; sourceTree = "<group>"; };
+		09C3D53C1F2B39EA00A54C88 /* StickyHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StickyHeaderView.m; sourceTree = "<group>"; };
+		09C3D53D1F2B39EA00A54C88 /* StickyHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StickyHeaderView.xib; sourceTree = "<group>"; };
+		E8F3AD3EA77EFB8BF60DE0DC /* Pods_IGListKitStickyHeader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IGListKitStickyHeader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEEC9B0008EA1E5C3BCF73E6 /* Pods-IGListKitStickyHeader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitStickyHeader.release.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitStickyHeader/Pods-IGListKitStickyHeader.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B54F5A94E07FC6E79C4293F /* Pods_IGListKitStickyHeader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +65,8 @@
 			children = (
 				09C3D5191F2B374700A54C88 /* IGListKitStickyHeader */,
 				09C3D5181F2B374700A54C88 /* Products */,
+				F70731A884EE8F8AE20D33B4 /* Pods */,
+				18B1C1AF0EA187075AC7EF37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,8 +90,35 @@
 				09C3D5251F2B374800A54C88 /* LaunchScreen.storyboard */,
 				09C3D5281F2B374800A54C88 /* Info.plist */,
 				09C3D5291F2B374800A54C88 /* main.m */,
+				09C3D5301F2B387500A54C88 /* SectionController.h */,
+				09C3D5311F2B387500A54C88 /* SectionController.m */,
+				09C3D5331F2B38D500A54C88 /* ViewModel.h */,
+				09C3D5341F2B38D500A54C88 /* ViewModel.m */,
+				09C3D5361F2B390F00A54C88 /* MyCollectionViewCell.h */,
+				09C3D5371F2B390F00A54C88 /* MyCollectionViewCell.m */,
+				09C3D5381F2B390F00A54C88 /* MyCollectionViewCell.xib */,
+				09C3D53B1F2B39EA00A54C88 /* StickyHeaderView.h */,
+				09C3D53C1F2B39EA00A54C88 /* StickyHeaderView.m */,
+				09C3D53D1F2B39EA00A54C88 /* StickyHeaderView.xib */,
 			);
 			path = IGListKitStickyHeader;
+			sourceTree = "<group>";
+		};
+		18B1C1AF0EA187075AC7EF37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8F3AD3EA77EFB8BF60DE0DC /* Pods_IGListKitStickyHeader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F70731A884EE8F8AE20D33B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08F6140B88FDA78A408C6585 /* Pods-IGListKitStickyHeader.debug.xcconfig */,
+				FEEC9B0008EA1E5C3BCF73E6 /* Pods-IGListKitStickyHeader.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09C3D52D1F2B374800A54C88 /* Build configuration list for PBXNativeTarget "IGListKitStickyHeader" */;
 			buildPhases = (
+				A66AD59921FEA0D585B94098 /* [CP] Check Pods Manifest.lock */,
 				09C3D5131F2B374700A54C88 /* Sources */,
 				09C3D5141F2B374700A54C88 /* Frameworks */,
 				09C3D5151F2B374700A54C88 /* Resources */,
+				5307F11902D83783EC90D49C /* [CP] Embed Pods Frameworks */,
+				BBCBD44A70FCD585C19F6EC7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,12 +182,62 @@
 			buildActionMask = 2147483647;
 			files = (
 				09C3D5271F2B374800A54C88 /* LaunchScreen.storyboard in Resources */,
+				09C3D53F1F2B39EA00A54C88 /* StickyHeaderView.xib in Resources */,
 				09C3D5241F2B374800A54C88 /* Assets.xcassets in Resources */,
+				09C3D53A1F2B390F00A54C88 /* MyCollectionViewCell.xib in Resources */,
 				09C3D5221F2B374800A54C88 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5307F11902D83783EC90D49C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IGListKitStickyHeader/Pods-IGListKitStickyHeader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A66AD59921FEA0D585B94098 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BBCBD44A70FCD585C19F6EC7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IGListKitStickyHeader/Pods-IGListKitStickyHeader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		09C3D5131F2B374700A54C88 /* Sources */ = {
@@ -143,7 +246,11 @@
 			files = (
 				09C3D51F1F2B374800A54C88 /* ViewController.m in Sources */,
 				09C3D52A1F2B374800A54C88 /* main.m in Sources */,
+				09C3D5391F2B390F00A54C88 /* MyCollectionViewCell.m in Sources */,
+				09C3D53E1F2B39EA00A54C88 /* StickyHeaderView.m in Sources */,
+				09C3D5351F2B38D500A54C88 /* ViewModel.m in Sources */,
 				09C3D51C1F2B374700A54C88 /* AppDelegate.m in Sources */,
+				09C3D5321F2B387500A54C88 /* SectionController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +382,7 @@
 		};
 		09C3D52E1F2B374800A54C88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08F6140B88FDA78A408C6585 /* Pods-IGListKitStickyHeader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CDL4Q49RXS;
@@ -288,6 +396,7 @@
 		};
 		09C3D52F1F2B374800A54C88 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEEC9B0008EA1E5C3BCF73E6 /* Pods-IGListKitStickyHeader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CDL4Q49RXS;
@@ -318,6 +427,7 @@
 				09C3D52F1F2B374800A54C88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
